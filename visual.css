@@ -1,0 +1,17 @@
+.driveneats{
+    width: 414px;
+    height: 92px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: brown;
+    color: aliceblue;
+}
+.driveneats h1{
+    margin-left: 20px;
+    font-size: 44px;
+}
+.driveneats h2 {
+    margin-left: 20px;
+    font-size: 18px;
+}
