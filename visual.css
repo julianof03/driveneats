@@ -1,4 +1,9 @@
 .driveneats{
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.topbar{
     width: 414px;
     height: 92px;
     display: flex;
@@ -7,11 +12,65 @@
     background-color: brown;
     color: aliceblue;
 }
-.driveneats h1{
+.topbar h1{
     margin-left: 20px;
     font-size: 44px;
 }
-.driveneats h2 {
+.topbar h2 {
     margin-left: 20px;
     font-size: 18px;
+}
+
+.opcoescomida{
+    position: relative;
+    display: flex;
+    width: 414px;
+    background-color: bisque;
+    overflow-x: scroll;
+}
+.opcoesbebidas {
+    position: relative;
+    display: flex;
+    width: 414px;
+    background-color: bisque;
+    overflow-x: scroll;
+}
+.opcoessobremesa {
+    position: relative;
+    display: flex;
+    width: 414px;
+    background-color: bisque;
+    overflow-x: scroll;
+}
+.opcao{
+    width: 172px;
+    min-width: 172px;
+    height: 216px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: aqua;
+    margin: 20px;
+}
+.opcao img{
+    width: 144px;
+    height: 87px;
+    position: absolute;
+    top: 18px;
+    left: 14px;
+}
+.titulo{
+    position: absolute;
+    bottom: 80px;
+    left: 14px;
+}
+.descricao {
+    position: absolute;
+    bottom: 37px;
+    left: 14px;
+}
+.valor{
+    position: absolute;
+    bottom: 13px;
+    left: 14px;
 }
