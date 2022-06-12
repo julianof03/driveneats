@@ -113,6 +113,12 @@
     bottom: 13px;
     left: 55px;
 }
+.virgula2{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    bottom: 13px;
+    left: 45px;
+}
 .seleciona{
     width: 172px;
     min-width: 172px;
