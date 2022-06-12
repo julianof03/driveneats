@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="visual.css"/>
     <link rel="stylesheet" href="reset.css"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -14,141 +21,166 @@
                 <div>
                     <h1>DrivenEats</h1>
                     <h2>Sua comida em 6 minutos</h2>
-                </div>      
+                </div> 
             </div>
             <div class="cardapio">
                 <div class="lista">
-                    <p>Primeiro, seu prato</p>
+                    <p class="listanome">Primeiro, seu prato</p>
                     <div class="opcoescomida">
                         <div class="opcao" onclick="selec(this)">
-                            <div>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
                             <img src="images/frangoyinyang.png">
                             <p class="titulo">Frango Yin Yang</p>
                             <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">14.90</p>
+                            <p class="valor">14.99</p>
                             <p class="valor2">R$</p>
-                            </div>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">15.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/Hamburguercasa.jpg">
+                            <p class="titulo">Hamburguer Casa</p>
+                            <p class="descricao">Um pouco de batata.</br> pouco Hamburguer</p>
+                            <p class="valor">15.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">16.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/sushi.jpg">
+                            <p class="titulo">Sushi</p>
+                            <p class="descricao">Um pouco de peixe.</br> um pouco de cru</p>
+                            <p class="valor">16.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">17.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/rozcombife.jpg">
+                            <p class="titulo">Roz com Bife</p>
+                            <p class="descricao">Um pouco de roz.</br> um pouco de bife</p>
+                            <p class="valor">17.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">18.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/tipicabrasa.jpg">
+                            <p class="titulo">Típica Brasa</p>
+                            <p class="descricao">Um pouco de tipica.</br> um pouco de brasa</p>
+                            <p class="valor">18.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                     </div>
                 </div>
                 <div class="lista">
-                    <p>Primeiro, seu prato</p>
+                    <p class="listanome">Agora, sua bebida</p>
                     <div class="opcoesbebidas">
-                        <div class="opcao" onclick="loga()">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">19.90</p>
+                        <div class="opcao" onclick="selec2(this)">
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/coquinhagelada.png">
+                            <p class="titulo">Coca Gelada</p>
+                            <p class="descricao">Um pouco de coca.</br> um pouco de gelada</p>
+                            <p class="valor">7.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec2(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">8.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/refrislata.jpg">
+                            <p class="titulo">Refri Lata</p>
+                            <p class="descricao">Um pouco de Refri.</br> um pouco de Lata</p>
+                            <p class="valor">6.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec2(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">4.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/copos.jpg">
+                            <p class="titulo">Copo colecináveis</p>
+                            <p class="descricao">Um pouco de copo.</br> um pouco de refri</p>
+                            <p class="valor">12.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
+                            <p class="virgula">,</p>
                         </div>
                         <div class="opcao" onclick="selec2(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">6.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/refrisdoislitrospandemia.jpg">
+                            <p class="titulo">Refris pandemia</p>
+                            <p class="descricao">Um pouco de Refri.</br> um pouco de barato</p>
+                            <p class="valor">6.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec2(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">5.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/refrigerantesus.jpg">
+                            <p class="titulo">Refri Suspeito</p>
+                            <p class="descricao">Um pouco de Refri.</br>e batante de Suspeito</p>
+                            <p class="valor">3.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                     </div>
                 </div>
                 <div class="lista">
-                    <p>Primeiro, seu prato</p>
+                    <p class="listanome">Por fim, sua sobremesa</p>
                     <div class="opcoessobremesa">
                         <div class="opcao" onclick="selec3(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">7.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/pudim.png">
+                            <p class="titulo">Pudim</p>
+                            <p class="descricao">Um pouco de Pudim.</br> um pouco de caramelo</p>
+                            <p class="valor">19.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec3(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">8.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/felicidade.jpg">
+                            <p class="titulo">Apenas Felicidade</p>
+                            <p class="descricao">pouco de felicidade.</br> um pouco de culpa</p>
+                            <p class="valor">8.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec3(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">12.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/felicidadebolinho.jpg">
+                            <p class="titulo">Felicidade mas é bolo</p>
+                            <p class="descricao">pouco de felicidade.</br> um pouco de bolinho</p>
+                            <p class="valor">4.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec3(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">14.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/felicidaderosa.jpg">
+                            <p class="titulo">Felicidade mas é rosa</p>
+                            <p class="descricao">pouco de felicidade.</br> um pouco de rosa</p>
+                            <p class="valor">6.99</p>
                             <p class="valor2">R$</p>
+                            <p class="virgula"> ,</p>
                         </div>
                         <div class="opcao" onclick="selec3(this)">
-                            <img src="images/frangoyinyang.png">
-                            <p class="titulo">Frango Yin Yang</p>
-                            <p class="descricao">Um pouco de batata.</br> um pouco de salada</p>
-                            <p class="valor">16.90</p>
+                            <ion-icon class="icone" name="checkmark-circle"></ion-icon>
+                            <img src="images/felicidademarrom.jpg">
+                            <p class="titulo">Felicidade Marrom</p>
+                            <p class="descricao">pouco de Felicidade.</br> um pouco de rosa</p>
+                            <p class="valor">5.99</p>
                             <p class="valor2">R$</p>
-                        </div>
+                            <p class="virgula"> ,</p>
                     </div>
                 </div>
             </div>
-            <div class="finalizar">
-                <p>selecione os 3 itens para fechar o pedido</p>
-            </div>
-            <div class="finalizar">
-                <p>fechar pedido</p>
+            <div class="finalizar " onclick="finalizar()">
+                <p>Selecione os 3 itens para fechar o pedido</p>
             </div>
         </div>
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
